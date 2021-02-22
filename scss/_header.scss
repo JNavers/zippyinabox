@@ -1,0 +1,136 @@
+body {
+
+    >header {
+        background-color: $white;
+
+        .my-banner {
+            position: relative;
+
+            .sub-container {
+
+                h1 {
+                    font-size: 30px;
+                    line-height: 36px;
+                    color: $white;
+                    padding-top: 27px;
+                    padding-left: 24px;
+                    font-weight: 700;
+
+                }
+
+                .btnBox {
+                    position: absolute;
+                    left: 0px;
+                    right: 0px;
+                    top: 280px;
+                    bottom: 0px;
+                    height: 0px;
+                    width: 336px;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    .cta-banner {
+                        display: block;
+                        background-color: $primary;
+                        font-family: $titlesfont;
+                        font-weight: $titlesfont;
+                        font-size: 18px;
+                        color: $white;
+                        width: 300px;
+                        height: 48px;
+                        padding: 13 21 13 21;
+                        border: none;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+
+
+
+            .banner-title {
+                position: absolute;
+                top: 10px;
+            }
+
+        }
+/*
+        nav {
+
+            box-shadow: 1px 5px 8px 2px $black;
+
+
+            #burguer {
+                width: auto;
+                height: 19px;
+                margin-top: 63px;
+            }
+
+            #logo {
+                display: inline-block;
+                width: 63px;
+                height: auto;
+                margin-top: 45px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 12px;
+            }
+
+            ul {
+                height: $gridgutter * 1.5;
+                list-style-type: none;
+                margin: 0;
+
+                li {
+                    display: inline-block;
+
+                    a {
+                        display: inline-block;
+                        text-transform: uppercase;
+                        font-weight: 400;
+                        font-size: 0.75rem;
+                        line-height: $gridgutter * 1.5;
+                        height: $gridgutter * 1.5;
+                        letter-spacing: 1px;
+                        color: $primary;
+
+                        @media(min-width: $desktop) {
+                            letter-spacing: 2px;
+                        }
+
+                    }
+
+                }
+            }
+
+            &#customermenu {
+                i {
+                    font-family: $bodyfont;
+                    font-weight: $bodyfontweights;
+                    color: $primary;
+                    display: inline-block;
+                    font-size: 1.2rem;
+                    margin-left: $gridgutter / 2;
+
+                    @media(min-width: $tablet) {
+                        margin-left: $gridgutter / 3;
+                    }
+
+                    @media(min-width: $desktop) {
+                        margin-left: $gridgutter / 2;
+                    }
+                }
+            }
+        }
+
+        #mainmenu {
+            display: none;
+        }
+
+
+
+        .mobile-colapse {
+            display: none;
+        } */
+    } 
+} 

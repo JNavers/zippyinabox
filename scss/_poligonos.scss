@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    .anim{
+        position: absolute;
+          -webkit-animation:spin 13s linear infinite;
+          -moz-animation:spin 13s linear infinite;
+          animation:spin 13s linear infinite;
+      }
+      @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+      @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+      @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+      
+
+    .poly1 {
+        position: absolute;
+        top: 1176.2px;
+        left: 317.87px;
+    }
+
+    .poly2 {
+        position: absolute;
+        top: 1179.3px;
+        right: 313.43px;
+    }
+
+    .poly3 {
+        position: absolute;
+        top: 1568px;
+        right: 331.36px;
+    }
+
+    .poly4 {
+        position: absolute;
+        top: 1578px;
+        left: 355px;
+
+    }
+
+    .poly5 {
+        position: absolute;
+        top: 1739px;
+        left: 274px;
+
+    }
+
+    .poly6 {
+        position: absolute;
+        top: 2098px;
+        right: 365px;
+    }
+
+    .poly7 {
+        position: absolute;
+        top: 2420px;
+        left: 344px;
+        overflow: hidden;
+    }
+
+    .poly8 {
+        position: absolute;
+        top: 2907px;
+        right: 231.14px;
+        z-index:-2; 
+    }
+}

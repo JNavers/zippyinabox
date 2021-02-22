@@ -1,0 +1,59 @@
+.carousel {
+
+    background-color: $warmgrey;
+
+    .container {
+
+        #carouselExampleIndicators {
+
+            .carousel-inner {
+
+                .carousel-item {
+                    
+                    height:240px;
+                    width: 205px;
+                    bottom:40px;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    .img-instagram {
+                        display:block;
+                        width: 100%;
+                        height: auto;
+                        margin-bottom: auto;
+                    }
+                }
+            }
+
+            .carousel-control-prev {
+               
+                color: #ED282D;
+                bottom: 0px !important;
+                top: auto;
+                left: 0px;
+            }
+
+            .carousel-control-next {
+
+                color: #ED282D;
+                bottom: 0px !important;
+                top: auto;
+                right: 0px;
+            }
+
+            .carousel-indicators li {
+                height: 10px;
+                width: 10px;
+                background-color: #E9C8BE;
+
+                &.active {
+                    background-color: #ED282D;
+
+                }
+            }
+
+            
+
+        }
+    }
+}
